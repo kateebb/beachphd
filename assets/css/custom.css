@@ -1,4 +1,44 @@
+/* Font and Typography */
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 17px;
-  color: #222222;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #111;
+}
+
+/* Links */
+a {
+  color: #3B5998;
+  text-decoration: none;
+}
+a:hover {
+  color: #1a3366;
+  text-decoration: underline;
+}
+
+/* Horizontal rule and section breaks */
+hr {
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.4rem;
+}
+
+/* Research bullets (optional tightening) */
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Image (circular avatar) */
+img.avatar {
+  border-radius: 50%;
+  max-width: 160px;
 }
